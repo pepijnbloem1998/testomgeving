@@ -38,4 +38,4 @@ spec:
       port: 8080  #de pod open poort 8080 als connectie
       targetPort: 80
       #setting2 voor een external toegang
-      nodePort: 30080  #moet tussen 30000 en 32767 liggen
+      #nodePort: 30080  #moet tussen 30000 en 32767 liggen
