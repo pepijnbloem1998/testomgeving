@@ -19,7 +19,6 @@
   if($focus==2)
    {
      $url="http://10.3.27.32:5052/hoofdstad/" .$_POST['txt_land'];
-    http://10.3.27.32:5052/hoofdstad/Nederland
      $html2="hoofdstad van " .$_POST['txt_land']. " is " . file_get_contents($url);
    }
 ?>
