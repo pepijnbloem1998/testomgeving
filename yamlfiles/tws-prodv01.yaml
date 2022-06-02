@@ -20,6 +20,15 @@ spec:
         image: pepijnbloem/pbapaserv-prod22
         ports:
         - containerPort: 80 #the standard 80 port
+        
+        volumeMounts:
+        - mountPath: /var/www/html    #de webfiles van apache2ctl
+          name: web-data
+      volumes:
+        - name: web-data
+          hostPath:
+      # directory location on host
+          path: /var/lib/jenkins/workspace/Testomgeving/testsite
 
 #dit betekent hier komt een nieuwe YAML-file
 ---
