@@ -1,4 +1,4 @@
-FROM pepijnbloem/pb-restserv-dev22
+FROM pepijnbloem/pb-restserv-dev
 LABEL maintainer="ISM_HAN"
 
 ARG DEBIAN_FRONTEND=noninteractive
