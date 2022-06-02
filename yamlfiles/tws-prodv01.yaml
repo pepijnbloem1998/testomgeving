@@ -28,7 +28,7 @@ spec:
         - name: web-data
           hostPath:
       # directory location on host
-            path: /var/lib/jenkins/workspace/Testomgeving/testsite
+            path: /var/lib/jenkins/workspace/Productieomgeving/testsite
 
 #dit betekent hier komt een nieuwe YAML-file
 ---
