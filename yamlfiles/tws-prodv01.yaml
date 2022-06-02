@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: tws  
-        image: dockerkarelh/kdh-testwebsite-prodv01
+        image: pepijnbloem/pbapaserv-prod22
         ports:
         - containerPort: 80 #the standard 80 port
 
